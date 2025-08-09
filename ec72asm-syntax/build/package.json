@@ -1,0 +1,26 @@
+{
+  "name": "ec72asm-syntax",
+  "displayName": "EC72 Assembly Syntax",
+  "description": "Syntax highlighting for EC72 (Emulator CPU 72) assembly files",
+  "version": "0.0.1",
+  "publisher": "Gandalf2004",
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ec72asm",
+        "aliases": ["EC72 Assembly", "ec72asm"],
+        "extensions": [".ec72asm"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ec72asm",
+        "scopeName": "source.ec72asm",
+        "path": "./syntaxes/ec72asm.tmLanguage.json"
+      }
+    ]
+  }
+}

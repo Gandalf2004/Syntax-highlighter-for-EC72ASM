@@ -1,0 +1,65 @@
+{
+  "scopeName": "source.ec72asm",
+  "patterns": [
+    { "include": "#comment" },
+    { "include": "#mnemonics" },
+    { "include": "#registers" },
+    { "include": "#numbers" },
+    { "include": "#labels" },
+    { "include": "#directives" }
+  ],
+  "repository": {
+    "comment": {
+      "patterns": [
+        {
+          "name": "comment.line.semicolon.ec72asm",
+          "match": ";.*$"
+        }
+      ]
+    },
+    "mnemonics": {
+      "patterns": [
+        {
+          "name": "keyword.mnemonic.ec72asm",
+          "match": "\\b(?:MOVR|MOVA|MOVB|MOVC|MOVE|STORA|STORB|STORC|STORE|LDIMA|LDIMB|LDIMC|LDIME|MOVA_PTRB|STORA_PTRB|PUSH|POP|JMPN|JMPZ|JMPO|JMP|CALL|RET|ADD|SUB|ADDR|SUBR|ADDSP|SUBSP|OUT|HLT)\\b"
+        }
+      ]
+    },
+    "registers": {
+      "patterns": [
+        {
+          "name": "variable.register.ec72asm",
+          "match": "\\b(?:RA|RB|RC|RE|SP|IR|PC|MAR)\\b"
+        }
+      ]
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.hex.ec72asm",
+          "match": "\\b0x[0-9A-Fa-f]+\\b"
+        },
+        {
+          "name": "constant.numeric.decimal.ec72asm",
+          "match": "\\b\\d+\\b"
+        }
+      ]
+    },
+    "labels": {
+      "patterns": [
+        {
+          "name": "entity.name.label.ec72asm",
+          "match": "^[A-Za-z_@.][A-Za-z0-9_@.]*:"
+        }
+      ]
+    },
+    "directives": {
+      "patterns": [
+        {
+          "name": "keyword.directive.ec72asm",
+          "match": "^\\s*\\.(?:data|text|word|byte)\\b"
+        }
+      ]
+    }
+  }
+}
