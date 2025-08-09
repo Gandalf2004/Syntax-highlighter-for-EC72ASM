@@ -26,7 +26,8 @@ If you are using **Code - OSS** on Arch Linux, the binary might be named differe
 code-oss --install-extension ec72asm-syntax-0.0.1.vsix
 ```
 Or via the GUI:
-  same as for windows asame as abouve.
+  
+  same as for windows VS Code, same as above.
 
 ## Building from Source
 If you want to edit the grammar and repackage the extension yourself:
