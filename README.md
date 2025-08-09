@@ -1,6 +1,6 @@
 # Syntax-highlighter-for-EC72ASM
 
-Syntax highlighter support for EC72ASM assembly in Visual Studio Code, or Code - OSS for Arch Linux.
+Syntax highlighter support for [EC72ASM assembly](https://github.com/Gandalf2004/Custom-1972-CPU) in Visual Studio Code, or Code - OSS for Arch Linux.
 
 ---
 
