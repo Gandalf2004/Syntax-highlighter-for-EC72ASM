@@ -8,9 +8,9 @@ Syntax highlighter support for [EC72ASM assembly](https://github.com/Gandalf2004
 
 ### Method 1 — From VSIX (Recommended)
 
-**➡ [Download EC72ASM Syntax Highlighter (.vsix)](https://github.com/Gandalf2004/Syntax-highlighter-for-EC72ASM/releases/latest/download/ec72asm-syntax-0.0.1.vsix)**
+**➡ [Download EC72ASM Syntax Highlighter (.vsix)](https://github.com/Gandalf2004/Syntax-highlighter-for-EC72ASM/tree/main/ec72asm-syntax/releases/latest/download/ec72asm-syntax-0.0.1.vsix)**
 
-1. Download the `.vsix` file from the link above or from the [Releases](https://github.com/Gandalf2004/Syntax-highlighter-for-EC72ASM/releases) page.  
+1. Download the `.vsix` file from the link above or from the [Releases](Gandalf2004/Syntax-highlighter-for-EC72ASM/tree/main/ec72asm-syntax/releases) page.  
 2. In VS Code, open the Extensions view (`Ctrl+Shift+X`).  
 3. Click the **⋯** menu in the top-right corner.  
 4. Choose **Install from VSIX...** and select the downloaded file.  
