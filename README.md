@@ -34,5 +34,11 @@ If you want to edit the grammar and repackage the extension yourself:
   - Clone this repository:
 ```bash
 git clone https://github.com/Gandalf2004/Syntax-highlighter-for-EC72ASM.git
-cd ec72asm-syntax
+cd ec72asm-syntax/build
 ```
+  - Package the extension:
+```bash
+npx vsce package
+```
+  This will create a `.vsix` file
+  - Install it via VS Code or Code - OSS using the steps above.
