@@ -21,7 +21,7 @@
       "patterns": [
         {
           "name": "keyword.mnemonic.ec72asm",
-          "match": "\\b(?:MOVR|MOVA|MOVB|MOVC|MOVE|STORA|STORB|STORC|STORE|LDIMA|LDIMB|LDIMC|LDIME|MOVA_PTRB|STORA_PTRB|PUSH|POP|JMPN|JMPZ|JMPO|JMP|CALL|RET|ADD|SUB|ADDR|SUBR|ADDSP|SUBSP|OUT|HLT)\\b"
+          "match": "\\b(?:MOVR|MOVA|MOVB|MOVC|MOVE|STORA|STORB|STORC|STORE|LDIMA|LDIMB|LDIMC|LDIME|MOVA_PTRB|STORA_PTRB|PUSH|POP|JMPN|JMPZ|JMPO|JMP|CALL|RET|ADD|SUB|ADDR|SUBR|ADDSP|SUBSP|OUT|SSTOF|SSTUF|HLT)\\b"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "patterns": [
         {
           "name": "variable.register.ec72asm",
-          "match": "\\b(?:RA|RB|RC|RE|SP|IR|PC|MAR)\\b"
+          "match": "\\b(?:RA|RB|RC|RE|SP)\\b"
         }
       ]
     },
