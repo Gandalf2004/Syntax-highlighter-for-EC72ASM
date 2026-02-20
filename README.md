@@ -8,7 +8,7 @@ Syntax highlighter support for [EC72ASM assembly](https://github.com/Gandalf2004
 
 ### Method 1 — From VSIX (Recommended)
 
-**➡ [Download EC72ASM Syntax Highlighter (.vsix)](https://github.com/Gandalf2004/Syntax-highlighter-for-EC72ASM/tree/main/ec72asm-syntax/releases/latest/download/ec72asm-syntax-0.0.1.vsix)**
+**➡ [Download EC72ASM Syntax Highlighter (.vsix)](https://github.com/Gandalf2004/Syntax-highlighter-for-EC72ASM/tree/main/ec72asm-syntax/releases/latest/download/ec72asm-syntax-0.0.2.vsix)**
 
 1. Download the `.vsix` file from the link above or from the [Releases](https://github.com/Gandalf2004/Syntax-highlighter-for-EC72ASM/tree/main/ec72asm-syntax/releases/latest/download/) page.  
 2. In VS Code, open the Extensions view (`Ctrl+Shift+X`).  
@@ -23,7 +23,7 @@ Syntax highlighter support for [EC72ASM assembly](https://github.com/Gandalf2004
 If you are using **Code - OSS** on Arch Linux, the binary might be named differently. To install via terminal:
 
 ```bash
-code-oss --install-extension ec72asm-syntax-0.0.1.vsix
+code-oss --install-extension ec72asm-syntax-0.0.2.vsix
 ```
 Or via the GUI:
   
